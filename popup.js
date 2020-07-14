@@ -10,7 +10,6 @@ btn.addEventListener('click', function () {
 });
 
 chrome.tabs.query({ active:true, currentWindow:true }, function(tabs) {
-  console.log(tabs);
   var url = tabs && tabs.length ? tabs[0].url : '';
   if (url.indexOf('http') === 0) {
     input.value = url;
