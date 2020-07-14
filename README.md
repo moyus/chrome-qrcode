@@ -1,2 +1,2 @@
 # chrome-qrcode
-QR code extention for chrome
+QR Code generator extention for Chrome
